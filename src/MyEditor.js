@@ -1,12 +1,12 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { Editor, EditorState, convertFromRaw, convertToRaw } from 'draft-js';
+import React, { useState } from 'react';
+import { Editor, EditorState, convertFromRaw } from 'draft-js';
 import 'draft-js/dist/Draft.css';
 
 const MyEditor = () => {
   const [editor, setEditor] = useState(() => EditorState.createEmpty(),);
   const [value, setValue] = useState('');
 
-  const onChange = (e) => setValue(e.target.value.replaceAll('\\"', '"'));
+  const onChange = (e) => setValue(e.target.value);
 
   const convertToText = () => {
     const DBEditorState = convertFromRaw(JSON.parse(value));
@@ -17,7 +17,7 @@ const MyEditor = () => {
     <div style={styles.root}>
 
       <textarea
-      style={styles.textarea}
+        style={styles.textarea}
         value={value}
         placeholder="Enter some text..."
 
