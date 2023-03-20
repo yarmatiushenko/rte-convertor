@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rte-convertor/static/css/main.baa01215.css",
-    "main.js": "/rte-convertor/static/js/main.b2e042e7.js",
+    "main.js": "/rte-convertor/static/js/main.8eb217a1.js",
     "static/js/787.0bb4c9bb.chunk.js": "/rte-convertor/static/js/787.0bb4c9bb.chunk.js",
     "index.html": "/rte-convertor/index.html",
     "main.baa01215.css.map": "/rte-convertor/static/css/main.baa01215.css.map",
-    "main.b2e042e7.js.map": "/rte-convertor/static/js/main.b2e042e7.js.map",
+    "main.8eb217a1.js.map": "/rte-convertor/static/js/main.8eb217a1.js.map",
     "787.0bb4c9bb.chunk.js.map": "/rte-convertor/static/js/787.0bb4c9bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.baa01215.css",
-    "static/js/main.b2e042e7.js"
+    "static/js/main.8eb217a1.js"
   ]
 }
